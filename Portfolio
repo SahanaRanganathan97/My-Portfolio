@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Add CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: olive; /* Change heading color to olive green */
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .profile-pic {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        /* Add more styling as needed */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+        <p>Personal information goes here...</p>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <ul>
+            <li>Certificate 1</li>
+            <li>Certificate 2</li>
+            <!-- Add more certificates as needed -->
+        </ul>
+    </section>
+
+    <section id="learnings">
+        <h2>Learning Experiences</h2>
+        <ul>
+            <li>Learning Experience 1</li>
+            <li>Learning Experience 2</li>
+            <!-- Add more learning experiences as needed -->
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Insert your resume content here...</p>
+    </section>
+
+    <section id="cv">
+        <h2>CV</h2>
+        <p>Insert your CV content here...</p>
+    </section>
+</body>
+</html>
